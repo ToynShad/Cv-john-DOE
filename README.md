@@ -27,8 +27,7 @@ Avant d’installer le projet, assure-toi d’avoir :
 ## Lancer le projet
 
 - npm start 
- HEAD
-
 
 - ![Capture d'écran 2025-02-26 144844](https://github.com/user-attachments/assets/5e5a735a-b2d1-46fa-9490-061b81cb4b7a)
- 28669a46d52ff35bb42ba6816dff108c6974667b
+
+ - Lien du site héberger : https://toynshad.github.io/Cv-john-DOE/

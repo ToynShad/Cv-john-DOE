@@ -1,0 +1,30 @@
+.about-container, .skills-container {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-title {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #0d6efd;
+}
+
+.about-img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.skills-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.skill-bar .progress {
+    height: 8px;
+    border-radius: 5px;
+    max-width: 100%;
+}

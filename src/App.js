@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
+import Realisations from './Pages/Realisations';
+import Blog from './Pages/Blog';
+import Contact from './Pages/Contact';
+import Legal from './Pages/Legal';
+import ApiGitHub from './Pages/ApiGitHub';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Header from './Components/Header'
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header id="top"/>
+
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/services' element={<Services />}/>
+        <Route path='/realisations' element={<Realisations />}/>
+        <Route path='/blog' element={<Blog />}/>
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='/legal' element={<Legal />}/>
+        <Route path='/profil-github' element={<ApiGitHub />}/>
+      </Routes>
+
+      <Footer />
     </div>
   );
 }

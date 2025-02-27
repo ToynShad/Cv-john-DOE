@@ -32,11 +32,11 @@ Avant d’installer le projet, assure-toi d’avoir :
 - ![Capture d'écran 2025-02-26 144844](https://github.com/user-attachments/assets/5e5a735a-b2d1-46fa-9490-061b81cb4b7a)
  
 
-<<<<<<< HEAD
+
 # CodeSandBox
-=======
+
 CodeSandBox
->>>>>>> 468e4728c5538a954259ef7373db2a59934d8a70
+
 
 Vous pouvez accéder au projet sur CodeSandBox en cliquant sur ce lien : https://codesandbox.io/p/github/ToynShad/Cv-john-DOE/main
 
